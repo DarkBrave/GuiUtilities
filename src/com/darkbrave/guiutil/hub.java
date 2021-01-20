@@ -1,5 +1,6 @@
 package com.darkbrave.guiutil;
 
+import com.darkbrave.guiutil.tools.Calculator;
 import com.darkbrave.guiutil.tools.WebsiteOpener;
 
 import javax.swing.*;
@@ -52,7 +53,7 @@ public class hub {
         calculatorButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                Calculator calculator = new Calculator();
             }
         });
     }

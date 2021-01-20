@@ -23,7 +23,7 @@ public class WebsiteOpener {
         jr.setVisible(true);
         jr.setSize(512,512);
         jr.setContentPane(this.websiteOpenerPanel);
-        jr.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        jr.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         jr.pack();
         jr.setResizable(false);
         jr.setLocationRelativeTo(null);
