@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GuiUtilities:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GuiUtilities_jar</output-path>
+    <root id="archive" name="GuiUtilities.jar">
+      <element id="module-output" name="GuiUtilities" />
+    </root>
+  </artifact>
+</component>
