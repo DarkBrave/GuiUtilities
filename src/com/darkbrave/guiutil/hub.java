@@ -1,6 +1,7 @@
 package com.darkbrave.guiutil;
 
 import com.darkbrave.guiutil.tools.Calculator;
+import com.darkbrave.guiutil.tools.TextFormatter;
 import com.darkbrave.guiutil.tools.WebsiteOpener;
 
 import javax.swing.*;
@@ -54,6 +55,18 @@ public class hub {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Calculator calculator = new Calculator();
+            }
+        });
+        sizeConverterButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(jr, "This module is not completed.");
+            }
+        });
+        textFormatterButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                TextFormatter textFormatter = new TextFormatter();
             }
         });
     }
